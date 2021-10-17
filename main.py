@@ -47,6 +47,6 @@ while correct_guess == 0:
         else:
             print(f"Please choose an integer between 1 and 100")
     except Exception as e:
-        print(f"An error has occured. Please try again later.")
+        print(f"An error has occurred. Please try again later.")
         correct_guess = 1
 print(f"Game Over")
